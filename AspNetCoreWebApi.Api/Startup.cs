@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -48,9 +48,18 @@ namespace AspNetCoreWebApi.Api
                 app.UseHsts();
             }
 
+            InitializeDatabase(app);
             app.UseStatusCodePages();
             app.UseHttpsRedirection();
             app.UseMvc();
+        }
+
+        private void InitializeDatabase(IApplicationBuilder app)
+        {
+            using (var scope = app.ApplicationServices.GetService<IServiceScopeFactory>().CreateScope())
+            {
+                scope.ServiceProvider.GetRequiredService<CoreDbContext>().Database.Migrate();
+            }
         }
     }
 }
