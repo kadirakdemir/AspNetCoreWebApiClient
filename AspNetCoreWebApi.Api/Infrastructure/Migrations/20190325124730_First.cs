@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace AspNetCoreWebApi.Api.Infrastructure.Migrations
 {
-    public partial class first : Migration
+    public partial class First : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -51,15 +51,15 @@ namespace AspNetCoreWebApi.Api.Infrastructure.Migrations
                 columns: new[] { "Id", "CategoryName", "Description", "IsActive" },
                 values: new object[,]
                 {
-                    { 1, "Çorbalar", "Anadolunun mutfağından tap taze organik ürünlerden elde ettiğimiz kendi mahsüllerimiz ile usta aşçılarımızların ellerinden çıkma yemekler. ", true },
-                    { 2, "Kebaplar", "Anadolunun mutfağından tap taze organik ürünlerden elde ettiğimiz kendi mahsüllerimiz ile usta aşçılarımızların ellerinden çıkma yemekler. ", true },
-                    { 3, "Salatalar", "Anadolunun mutfağından tap taze organik ürünlerden elde ettiğimiz kendi mahsüllerimiz ile usta aşçılarımızların ellerinden çıkma yemekler. ", true },
-                    { 4, "İçecekler", "Anadolunun mutfağından tap taze organik ürünlerden elde ettiğimiz kendi mahsüllerimiz ile usta aşçılarımızların ellerinden çıkma yemekler. ", true },
-                    { 5, "Balıklar", "Anadolunun mutfağından tap taze organik ürünlerden elde ettiğimiz kendi mahsüllerimiz ile usta aşçılarımızların ellerinden çıkma yemekler. ", true },
-                    { 6, "Sulu Yemekler", "Anadolunun mutfağından tap taze organik ürünlerden elde ettiğimiz kendi mahsüllerimiz ile usta aşçılarımızların ellerinden çıkma yemekler. ", true },
-                    { 7, "Meyveler", "Anadolunun mutfağından tap taze organik ürünlerden elde ettiğimiz kendi mahsüllerimiz ile usta aşçılarımızların ellerinden çıkma yemekler. ", true },
-                    { 8, "Tatlılar", "Anadolunun mutfağından tap taze organik ürünlerden elde ettiğimiz kendi mahsüllerimiz ile usta aşçılarımızların ellerinden çıkma yemekler. ", true },
-                    { 9, "Kuru Yemiş", "Anadolunun mutfağından tap taze organik ürünlerden elde ettiğimiz kendi mahsüllerimiz ile usta aşçılarımızların ellerinden çıkma yemekler. ", true }
+                    { 1, "Çorbalar", "Anadolunun mutfağından tap taze organik ürünlerden elde ettiğimiz kendi ürünlerimiz ile profesyonel ekibimizle hazırlanmış günlük yemekler. ", true },
+                    { 2, "Kebaplar", "Anadolunun mutfağından tap taze organik ürünlerden elde ettiğimiz kendi ürünlerimiz ile profesyonel ekibimizle hazırlanmış günlük yemekler. ", true },
+                    { 3, "Salatalar", "Anadolunun mutfağından tap taze organik ürünlerden elde ettiğimiz kendi ürünlerimiz ile profesyonel ekibimizle hazırlanmış günlük yemekler. ", true },
+                    { 4, "İçecekler", "Anadolunun mutfağından tap taze organik ürünlerden elde ettiğimiz kendi ürünlerimiz ile profesyonel ekibimizle hazırlanmış günlük yemekler. ", true },
+                    { 5, "Balıklar", "Anadolunun mutfağından tap taze organik ürünlerden elde ettiğimiz kendi ürünlerimiz ile profesyonel ekibimizle hazırlanmış günlük yemekler. ", true },
+                    { 6, "Sulu Yemekler", "Anadolunun mutfağından tap taze organik ürünlerden elde ettiğimiz kendi ürünlerimiz ile profesyonel ekibimizle hazırlanmış günlük yemekler. ", true },
+                    { 7, "Meyveler", "Anadolunun mutfağından tap taze organik ürünlerden elde ettiğimiz kendi ürünlerimiz ile profesyonel ekibimizle hazırlanmış günlük yemekler. ", true },
+                    { 8, "Tatlılar", "Anadolunun mutfağından tap taze organik ürünlerden elde ettiğimiz kendi ürünlerimiz ile profesyonel ekibimizle hazırlanmış günlük yemekler. ", true },
+                    { 9, "Kuru Yemiş", "Anadolunun mutfağından tap taze organik ürünlerden elde ettiğimiz kendi ürünlerimiz ile profesyonel ekibimizle hazırlanmış günlük yemekler. ", true }
                 });
 
             migrationBuilder.InsertData(

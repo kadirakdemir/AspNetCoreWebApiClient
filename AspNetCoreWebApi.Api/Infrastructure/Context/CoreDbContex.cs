@@ -11,7 +11,7 @@ namespace AspNetCoreWebApi.Api.Infrastructure.Context
     {
         public CoreDbContext(DbContextOptions<CoreDbContext> options) : base(options)
         {
-
+           
         }
         public DbSet<Product> Product { get; set; }
         public DbSet<Category> Category { get; set; }

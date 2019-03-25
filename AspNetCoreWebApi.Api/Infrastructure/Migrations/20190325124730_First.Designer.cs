@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AspNetCoreWebApi.Api.Infrastructure.Migrations
 {
     [DbContext(typeof(CoreDbContext))]
-    [Migration("20190324213759_first")]
-    partial class first
+    [Migration("20190325124730_First")]
+    partial class First
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -41,63 +41,63 @@ namespace AspNetCoreWebApi.Api.Infrastructure.Migrations
                         {
                             Id = 1,
                             CategoryName = "Çorbalar",
-                            Description = "Anadolunun mutfağından tap taze organik ürünlerden elde ettiğimiz kendi mahsüllerimiz ile usta aşçılarımızların ellerinden çıkma yemekler. ",
+                            Description = "Anadolunun mutfağından tap taze organik ürünlerden elde ettiğimiz kendi ürünlerimiz ile profesyonel ekibimizle hazırlanmış günlük yemekler. ",
                             IsActive = true
                         },
                         new
                         {
                             Id = 2,
                             CategoryName = "Kebaplar",
-                            Description = "Anadolunun mutfağından tap taze organik ürünlerden elde ettiğimiz kendi mahsüllerimiz ile usta aşçılarımızların ellerinden çıkma yemekler. ",
+                            Description = "Anadolunun mutfağından tap taze organik ürünlerden elde ettiğimiz kendi ürünlerimiz ile profesyonel ekibimizle hazırlanmış günlük yemekler. ",
                             IsActive = true
                         },
                         new
                         {
                             Id = 3,
                             CategoryName = "Salatalar",
-                            Description = "Anadolunun mutfağından tap taze organik ürünlerden elde ettiğimiz kendi mahsüllerimiz ile usta aşçılarımızların ellerinden çıkma yemekler. ",
+                            Description = "Anadolunun mutfağından tap taze organik ürünlerden elde ettiğimiz kendi ürünlerimiz ile profesyonel ekibimizle hazırlanmış günlük yemekler. ",
                             IsActive = true
                         },
                         new
                         {
                             Id = 4,
                             CategoryName = "İçecekler",
-                            Description = "Anadolunun mutfağından tap taze organik ürünlerden elde ettiğimiz kendi mahsüllerimiz ile usta aşçılarımızların ellerinden çıkma yemekler. ",
+                            Description = "Anadolunun mutfağından tap taze organik ürünlerden elde ettiğimiz kendi ürünlerimiz ile profesyonel ekibimizle hazırlanmış günlük yemekler. ",
                             IsActive = true
                         },
                         new
                         {
                             Id = 5,
                             CategoryName = "Balıklar",
-                            Description = "Anadolunun mutfağından tap taze organik ürünlerden elde ettiğimiz kendi mahsüllerimiz ile usta aşçılarımızların ellerinden çıkma yemekler. ",
+                            Description = "Anadolunun mutfağından tap taze organik ürünlerden elde ettiğimiz kendi ürünlerimiz ile profesyonel ekibimizle hazırlanmış günlük yemekler. ",
                             IsActive = true
                         },
                         new
                         {
                             Id = 6,
                             CategoryName = "Sulu Yemekler",
-                            Description = "Anadolunun mutfağından tap taze organik ürünlerden elde ettiğimiz kendi mahsüllerimiz ile usta aşçılarımızların ellerinden çıkma yemekler. ",
+                            Description = "Anadolunun mutfağından tap taze organik ürünlerden elde ettiğimiz kendi ürünlerimiz ile profesyonel ekibimizle hazırlanmış günlük yemekler. ",
                             IsActive = true
                         },
                         new
                         {
                             Id = 7,
                             CategoryName = "Meyveler",
-                            Description = "Anadolunun mutfağından tap taze organik ürünlerden elde ettiğimiz kendi mahsüllerimiz ile usta aşçılarımızların ellerinden çıkma yemekler. ",
+                            Description = "Anadolunun mutfağından tap taze organik ürünlerden elde ettiğimiz kendi ürünlerimiz ile profesyonel ekibimizle hazırlanmış günlük yemekler. ",
                             IsActive = true
                         },
                         new
                         {
                             Id = 8,
                             CategoryName = "Tatlılar",
-                            Description = "Anadolunun mutfağından tap taze organik ürünlerden elde ettiğimiz kendi mahsüllerimiz ile usta aşçılarımızların ellerinden çıkma yemekler. ",
+                            Description = "Anadolunun mutfağından tap taze organik ürünlerden elde ettiğimiz kendi ürünlerimiz ile profesyonel ekibimizle hazırlanmış günlük yemekler. ",
                             IsActive = true
                         },
                         new
                         {
                             Id = 9,
                             CategoryName = "Kuru Yemiş",
-                            Description = "Anadolunun mutfağından tap taze organik ürünlerden elde ettiğimiz kendi mahsüllerimiz ile usta aşçılarımızların ellerinden çıkma yemekler. ",
+                            Description = "Anadolunun mutfağından tap taze organik ürünlerden elde ettiğimiz kendi ürünlerimiz ile profesyonel ekibimizle hazırlanmış günlük yemekler. ",
                             IsActive = true
                         });
                 });
