@@ -1,0 +1,32 @@
+﻿@model AspNetCoreWebApi.Client.ViewModels.EditCategoryViewModel
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<div class="contentBody">
+    <h1>Kategori Düzenle</h1>
+    <div class="col-md-3">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="CategoryName" class="control-label"></label>
+                <input asp-for="CategoryName" class="form-control" />
+                <span asp-validation-for="CategoryName" class="text-danger"></span>
+            </div>          
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="IsActive" /> @Html.DisplayNameFor(model => model.IsActive)
+                </label>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+    <div>
+        <a asp-action="Index">Kategorilere geri dön</a>
+    </div>
+</div>
+
+

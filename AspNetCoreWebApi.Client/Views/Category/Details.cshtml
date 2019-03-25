@@ -1,0 +1,33 @@
+﻿@using AspNetCoreWebApi.Client.Components.CategoryComponents
+@model AspNetCoreWebApi.Client.Models.Category
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+
+<div class="contentBody">
+    <h3>@Model.CategoryName</h3>
+    <br />
+    <br />
+    <h4>Kategori Bilgileri</h4>
+    <hr />
+    <div class="row col-md 12">
+        <div class="col-md-6">
+            <div id="açıklama">
+                <div class="col-md-8"><h5>Kategori İsmi</h5></div>
+                <div class="col-md-8">@Model.CategoryName</div>
+                <br />
+                <div class="col-md-8"><h5>Açıklama</h5></div>
+                <div class="col-md-11">@Model.Description</div>
+            </div>            
+        </div>
+        <div class=" col-md-6">
+        @await Component.InvokeAsync("CategoryProducts", new { id=Model.Id})
+        </div>
+    </div>
+   
+
+
+
+</div>

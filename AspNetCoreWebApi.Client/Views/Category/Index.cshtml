@@ -1,0 +1,39 @@
+﻿@model ICollection<AspNetCoreWebApi.Client.Models.Category>
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<div class="contentBody">
+    <h1>Kategoriler</h1>
+    <div id="table">
+        <table class="table ">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">İsim</th>
+                    <th scope="col">Durum</th>
+                    <th scope="col">Düzenle</th>
+                    <th scope="col">Sil</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.CategoryName</td>
+                        <td>@item.IsActive</td>
+                        <td><a asp-action="Edit" asp-route-id="@item.Id"><i class="far fa-edit " style="font-size:16px;"></i></a></td>
+                        <td><a asp-action="Delete" asp-route-id="@item.Id"><i class="far fa-trash-alt " style="font-size:16px;"></i></a></td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <br />
+        <br />
+        <p>
+            <a class="btn btn-primary" asp-action="Create">Yeni Kategori Oluştur</a>
+        </p>
+    </div>
+</div>
+

@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+    <link href="~/lib/css/site.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <div class="flex-wrap" id="wrapper">
+        <header>
+          <partial name="_Header.cshtml" />
+        </header>
+        <content>
+            <div id="contentBody">
+                @RenderBody()
+            </div>
+            
+        </content>
+        <footer>
+            <partial name="_Footer.cshtml" />
+        </footer>
+    </div>
+</body>
+</html>

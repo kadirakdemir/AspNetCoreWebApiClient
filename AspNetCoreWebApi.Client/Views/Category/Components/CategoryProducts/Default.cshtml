@@ -1,0 +1,24 @@
+﻿@model IEnumerable<AspNetCoreWebApi.Client.Models.Product>
+
+<table class="table ">
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col">İsim</th>
+            <th scope="col">Durum</th>
+            <th scope="col">Stok</th>
+            <th scope="col">Fiyat</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Name</td>
+                <td>@item.IsActive</td>
+                <td>@item.Stock</td>
+                <td>@item.Price</td>
+            </tr>
+        }
+    </tbody>
+</table>
