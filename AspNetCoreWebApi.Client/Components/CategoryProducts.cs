@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace AspNetCoreWebApi.Client.Components.CategoryComponents
+namespace AspNetCoreWebApi.Client.Components
 {
     public class CategoryProducts : ViewComponent
     {
@@ -20,9 +20,6 @@ namespace AspNetCoreWebApi.Client.Components.CategoryComponents
         {           
             var products = _productClientManager.GetAll().Where(x=>x.CategoryId==id);
             return View(products);
-
-
-          
         }
     }
 }
