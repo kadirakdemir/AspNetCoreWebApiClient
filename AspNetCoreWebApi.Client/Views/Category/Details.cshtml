@@ -1,10 +1,9 @@
-﻿@using AspNetCoreWebApi.Client.Components.CategoryComponents
+﻿@using AspNetCoreWebApi.Client.Components
 @model AspNetCoreWebApi.Client.Models.Category
 
 @{
     ViewData["Title"] = "Details";
 }
-
 
 <div class="contentBody">
     <h3>@Model.CategoryName</h3>
@@ -20,14 +19,19 @@
                 <br />
                 <div class="col-md-8"><h5>Açıklama</h5></div>
                 <div class="col-md-11">@Model.Description</div>
-            </div>            
+            </div>
         </div>
         <div class=" col-md-6">
-        @await Component.InvokeAsync("CategoryProducts", new { id=Model.Id})
+            <div id="productHeader">
+                <h5>Ürünler</h5>
+            </div><br />
+            <div>
+                @await Component.InvokeAsync("CategoryProducts", new { id = Model.Id })
+            </div>
+            <vc:CategoryProducts ></vc:CategoryProducts>
         </div>
     </div>
-   
-
-
-
 </div>
+<vc:[view component name] parameter1="value"
+          parameter2="value">
+</vc:[view>

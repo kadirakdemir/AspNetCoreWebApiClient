@@ -24,12 +24,12 @@ using AspNetCoreWebApi.Client.Models;
 #line default
 #line hidden
 #line 3 "C:\Users\MK\Documents\GitHub\AspNetCoreWebApiClient\AspNetCoreWebApi.Client\Views\_ViewImports.cshtml"
-using AspNetCoreWebApi.Client.Components.CategoryComponents;
+using AspNetCoreWebApi.Client.Components;
 
 #line default
 #line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"028dfe0dd629e26b95d9759738947033df090ca0", @"/Views/Shared/_Header.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7811b9b9ad2d081a7ba423cf1dc4bde6eafb665d", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"2a79ec475082642c745970cdd1d91b7f0c0cf11d", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared__Header : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-controller", "Home", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -85,7 +85,7 @@ using AspNetCoreWebApi.Client.Components.CategoryComponents;
             WriteLiteral("iner d-flex justify-content-between\">\r\n            ");
             EndContext();
             BeginContext(1075, 502, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "028dfe0dd629e26b95d9759738947033df090ca06232", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "028dfe0dd629e26b95d9759738947033df090ca06213", async() => {
                 BeginContext(1166, 407, true);
                 WriteLiteral(@"
                 <svg xmlns=""http://www.w3.org/2000/svg"" width=""20"" height=""20"" viewBox=""0 0 24 24"" fill=""none"" stroke=""currentColor"" stroke-width=""2"" stroke-linecap=""round"" stroke-linejoin=""round"" class=""mr-2""><path d=""M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z""></path><circle cx=""12"" cy=""13"" r=""4""></circle></svg>
@@ -113,7 +113,7 @@ using AspNetCoreWebApi.Client.Components.CategoryComponents;
             WriteLiteral("\r\n            ");
             EndContext();
             BeginContext(1591, 159, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "028dfe0dd629e26b95d9759738947033df090ca08339", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "028dfe0dd629e26b95d9759738947033df090ca08320", async() => {
                 BeginContext(1686, 60, true);
                 WriteLiteral("\r\n                <strong>Kategoriler</strong>\r\n            ");
                 EndContext();
@@ -138,7 +138,7 @@ using AspNetCoreWebApi.Client.Components.CategoryComponents;
             WriteLiteral("\r\n            ");
             EndContext();
             BeginContext(1764, 154, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "028dfe0dd629e26b95d9759738947033df090ca010073", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "028dfe0dd629e26b95d9759738947033df090ca010054", async() => {
                 BeginContext(1858, 56, true);
                 WriteLiteral("\r\n                <strong>Ürünler</strong>\r\n            ");
                 EndContext();

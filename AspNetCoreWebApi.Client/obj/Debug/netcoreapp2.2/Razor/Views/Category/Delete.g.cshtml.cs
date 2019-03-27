@@ -24,12 +24,12 @@ using AspNetCoreWebApi.Client.Models;
 #line default
 #line hidden
 #line 3 "C:\Users\MK\Documents\GitHub\AspNetCoreWebApiClient\AspNetCoreWebApi.Client\Views\_ViewImports.cshtml"
-using AspNetCoreWebApi.Client.Components.CategoryComponents;
+using AspNetCoreWebApi.Client.Components;
 
 #line default
 #line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"002a6ad2a004e2a93b1393f227f919b065bf0e7c", @"/Views/Category/Delete.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7811b9b9ad2d081a7ba423cf1dc4bde6eafb665d", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"2a79ec475082642c745970cdd1d91b7f0c0cf11d", @"/Views/_ViewImports.cshtml")]
     public class Views_Category_Delete : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<AspNetCoreWebApi.Client.Models.Category>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("type", "hidden", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -110,12 +110,12 @@ using AspNetCoreWebApi.Client.Components.CategoryComponents;
             WriteLiteral("\r\n        </dd>\r\n    </dl>\r\n\r\n    ");
             EndContext();
             BeginContext(703, 215, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "002a6ad2a004e2a93b1393f227f919b065bf0e7c7030", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "002a6ad2a004e2a93b1393f227f919b065bf0e7c7011", async() => {
                 BeginContext(729, 10, true);
                 WriteLiteral("\r\n        ");
                 EndContext();
                 BeginContext(739, 36, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "002a6ad2a004e2a93b1393f227f919b065bf0e7c7420", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "002a6ad2a004e2a93b1393f227f919b065bf0e7c7401", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper>();
@@ -140,7 +140,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
                 WriteLiteral("\r\n        <input type=\"submit\" value=\"Delete\" class=\"btn btn-danger\" /> |\r\n        ");
                 EndContext();
                 BeginContext(858, 47, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "002a6ad2a004e2a93b1393f227f919b065bf0e7c9348", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "002a6ad2a004e2a93b1393f227f919b065bf0e7c9329", async() => {
                     BeginContext(880, 21, true);
                     WriteLiteral("Kategorilere geri dön");
                     EndContext();

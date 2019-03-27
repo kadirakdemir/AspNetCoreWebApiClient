@@ -24,12 +24,12 @@ using AspNetCoreWebApi.Client.Models;
 #line default
 #line hidden
 #line 3 "C:\Users\MK\Documents\GitHub\AspNetCoreWebApiClient\AspNetCoreWebApi.Client\Views\_ViewImports.cshtml"
-using AspNetCoreWebApi.Client.Components.CategoryComponents;
+using AspNetCoreWebApi.Client.Components;
 
 #line default
 #line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"268ce83819b224730a65fc0614bb35622c8082fe", @"/Views/Category/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7811b9b9ad2d081a7ba423cf1dc4bde6eafb665d", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"2a79ec475082642c745970cdd1d91b7f0c0cf11d", @"/Views/_ViewImports.cshtml")]
     public class Views_Category_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<ICollection<AspNetCoreWebApi.Client.Models.Category>>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-action", "Edit", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -113,7 +113,7 @@ using AspNetCoreWebApi.Client.Components.CategoryComponents;
             WriteLiteral("</td>\r\n                        <td>");
             EndContext();
             BeginContext(755, 101, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "268ce83819b224730a65fc0614bb35622c8082fe6599", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "268ce83819b224730a65fc0614bb35622c8082fe6580", async() => {
                 BeginContext(800, 52, true);
                 WriteLiteral("<i class=\"far fa-edit \" style=\"font-size:16px;\"></i>");
                 EndContext();
@@ -148,7 +148,7 @@ using AspNetCoreWebApi.Client.Components.CategoryComponents;
             WriteLiteral("</td>\r\n                        <td>");
             EndContext();
             BeginContext(891, 108, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "268ce83819b224730a65fc0614bb35622c8082fe9046", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "268ce83819b224730a65fc0614bb35622c8082fe9027", async() => {
                 BeginContext(938, 57, true);
                 WriteLiteral("<i class=\"far fa-trash-alt \" style=\"font-size:16px;\"></i>");
                 EndContext();
@@ -191,7 +191,7 @@ using AspNetCoreWebApi.Client.Components.CategoryComponents;
             WriteLiteral("            </tbody>\r\n        </table>\r\n        <br />\r\n        <br />\r\n        <p>\r\n            ");
             EndContext();
             BeginContext(1149, 72, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "268ce83819b224730a65fc0614bb35622c8082fe11875", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "268ce83819b224730a65fc0614bb35622c8082fe11856", async() => {
                 BeginContext(1196, 21, true);
                 WriteLiteral("Yeni Kategori Oluştur");
                 EndContext();
