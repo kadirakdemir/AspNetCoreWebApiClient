@@ -12,11 +12,6 @@
 <br>
 <br>
 <br>
-![5](https://user-images.githubusercontent.com/6715223/57072838-c0d5e800-6ce7-11e9-9efe-e869926818e2.jpg)
-<br>
-<br>
-<br>
-<br>
 ![6](https://user-images.githubusercontent.com/6715223/57072839-c0d5e800-6ce7-11e9-8119-dc5f6fd40eba.jpg)
 <br>
 <br>
